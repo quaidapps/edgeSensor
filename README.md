@@ -2,12 +2,12 @@
 Arduino code for use on edge device
 Use this code to send mq-135 air quality sensor data to a FireBse server. Note some devices have different breakout arrangements, mainly note the GND and VCC might have different locations based on the manufacturer.
 
-#HW setup
+##HW setup
 Connection order is 
   NodeMCU GND to sensor GND
   NodeMCU Vin (5V) to sensor VCC
   NodeMCU A0 to sensor Aout
-#Environment setup
+##Environment setup
 There are severla installation steps: [see here for a great explenations, missing step 4 here](https://github.com/FirebaseExtended/firebase-arduino/tree/master/examples/FirebaseRoom_ESP8266)
 1. Install ESP  8266 Arduino IDE package - follow instructions in step 2 [here](https://dzone.com/articles/programming-the-esp8266-with-the-arduino-ide-in-3)
 2. install the siliconLabs USB to UART bridge as describrd [here](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
